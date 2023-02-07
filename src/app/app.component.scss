@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
+
+.container {
+  position: relative;
+  height: 600px;
+  width: 300px;
+}
+
+.pokemonCard {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, rgb(230, 235, 96) 100px, rgb(255, 255, 255) 200px);
+  background-size: 400px;
+  // background: linear-gradient(to bottom, rgb(230, 235, 96), white);
+}
+
+ul {
+  list-style: none;
+}
+
+// li {
+//   position: relative;
+//   height: 50px;
+//   justify-content: left;
+// }
