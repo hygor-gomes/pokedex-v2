@@ -1,0 +1,37 @@
+:host {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  height: 100%;
+}
+
+.pokemon-card {
+  margin-top: 30px;
+  height: 80%;
+  width: 40%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(254,253,51,1) 0%, rgba(175,159,26,1) 100%);
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.tabs-control {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.tab-content {
+  margin-right: auto;
+}
+
